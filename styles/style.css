@@ -98,8 +98,11 @@ nav{
 
 #full-body{
     margin-top: 80px;
+    width: 1280px;
 }
 #full-body .body1-header{
+    width: 1280px;
+    height: 48px;
     font-size: 40px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1.00);
@@ -115,13 +118,18 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    margin-top: 40pxpx;
+    margin-top: 40px;
+    gap: 24px;
 
 }
+
 .pillar{
     width: 302px;
     height: 244px;
     border-radius: 16px;
+    padding: 24px;
+    border: 1px;
+    
 }
 
 .image.card{
@@ -140,5 +148,115 @@ nav{
     font-weight: 400;
     line-height: 24px;
     color: rgba(14, 14, 14, 0.70);
+}
+
+/* vision styles starts here */
+
+.vision{
+    width: 1280px;
+    height: 765px;
+    margin-top: 40px;
+    
+}
+.v-head{
+    height: 120px;
+ }
+
+.vision-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1.00);
+
+}
+ .vision-description{
+    color: rgba(14, 14, 14, 0.70);
+    margin-top: 24px;
+   
+ }
+
+ /* vision content */
+
+ 
+
+ .vision-container{
+    display: flex;
+    width: 1280px;
+    height: 325px;
+    padding: 24px;
+    margin-top: 32px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+    border-bottom: 32px;
+ }
+.bision{
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+    padding: 32px;
+    
+    
+   
+}
+.img2-card{
+    width: 64px;
+    height: 64px;
+}
+.vision-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.80);
+}
+.vision-inside-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.70);
+    line-height: 24px;
+}
+.v-color{
+    background-color: rgba(84, 144, 245, 0.20);
+}
+.vv-color{
+   background-color: rgba(198, 228, 214, 1.00);
+}
+.vvv-color{
+    background-color: rgba(247, 235, 207, 1.00);
+}
+
+.vision-btn{
+    background-color: rgba(84, 144, 245, 1.00);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1.00);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 40px;
+}
+.v-footer{
+    width: 1280px;
+    height: 256px;
+    padding: 48px 24px;
+}
+.v-footer-p{
+    height: 96px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px; 
+    color: rgba(14, 14, 14, 0.80);
+}
+.v-footer-h{
+    height: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.80);
+}
+.v-footer-pp{
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.60);
 }
 
