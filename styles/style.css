@@ -1,0 +1,144 @@
+/* fira sans style */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    align-items: center;
+    width: 1280px;
+    height: 100px;
+     
+}
+
+.nav-title{
+    font-size:20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1.00);
+    
+}
+.nav-btn{
+    background-color: white;
+    color: #006A50;
+    font-size: 18px;
+    font: weight 2px; 
+    padding: 10px 20px; 
+    border-radius: 10px;
+    
+    
+}
+
+
+
+#hold-banner .banner{
+    display: flex;
+    width: 1280px;
+    align-items: center;
+}
+.banner{
+
+    width:1280px;
+    height: 500px;
+    margin-top: 20px;
+    background-color: rgba(198, 228, 214, 1);
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.banner-content{
+    align-items: start;
+    width: 650px;
+    height: 300px;
+}
+.banner-name{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.5);
+}
+    
+.banner-description{
+    font-size: 56px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.btn-here{
+    align-items: start;
+    justify-content: start;
+}
+.banner-content-btn{
+    background-color: rgba(0, 106, 80, 1);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 20px;
+    border-radius: 8px;
+    align-items: start;
+
+}
+
+/* body parts starts here */
+
+
+#full-body{
+    margin-top: 80px;
+}
+#full-body .body1-header{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1.00);
+}
+
+/* PILLER CONTAINER STYLES */
+
+.piller-container{
+    width: 1280px;
+    height: 324px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 40pxpx;
+
+}
+.pillar{
+    width: 302px;
+    height: 244px;
+    border-radius: 16px;
+}
+
+.image.card{
+    height: 64px;
+    width: 64px;
+}
+
+.piller-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.piller.description{
+    font-size: 16px;  
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.70);
+}
+
