@@ -5,12 +5,12 @@
     font-style: normal;
 }
 
-*{
+/* *{
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
-}
+} */
   
 
 /* nav styles */
@@ -19,7 +19,7 @@ nav{
     justify-content: space-between;
     background-color: #F5F5F5;
     align-items: center;
-    width: 1280px;
+    /* width: 1280px; */
     height: 100px;
      
 }
@@ -28,6 +28,7 @@ nav{
     font-size:20px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1.00);
+    
     
 }
 .nav-btn{
@@ -39,18 +40,20 @@ nav{
     border-radius: 10px;
     
     
+    
 }
 
 
 
 #hold-banner .banner{
     display: flex;
-    width: 1280px;
+     
     align-items: center;
+    justify-content: center;
 }
 .banner{
 
-    width:1280px;
+    /* width:1280px; */
     height: 500px;
     margin-top: 20px;
     background-color: rgba(198, 228, 214, 1);
@@ -62,8 +65,8 @@ nav{
 .banner-content{
     align-items: start;
     width: 650px;
-    height: 300px;
-}
+     /* height: 300px; */
+} 
 .banner-name{
     margin-top: 20px;
     font-size: 14px;
@@ -75,8 +78,8 @@ nav{
     font-size: 56px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
-    padding-top: 16px;
-    padding-bottom: 16px;
+    /* padding-top: 16px; */
+    /* padding-bottom: 16px; */
 }
 .btn-here{
     align-items: start;
@@ -98,10 +101,10 @@ nav{
 
 #full-body{
     margin-top: 80px;
-    width: 1280px;
+    
 }
 #full-body .body1-header{
-    width: 1280px;
+   
     height: 48px;
     font-size: 40px;
     font-weight: bold;
@@ -111,24 +114,25 @@ nav{
 /* PILLER CONTAINER STYLES */
 
 .piller-container{
-    width: 1280px;
+    /* width: 1280px; */
     height: 324px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px; */
+    /* padding-bottom: 24px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    margin-top: 40px;
+    margin-top: 20px;
     gap: 24px;
 
 }
 
 .pillar{
-    width: 302px;
-    height: 244px;
+    width: 280px;
+    height: 200px;
     border-radius: 16px;
     padding: 24px;
     border: 1px;
+    background-color: rgb(191, 197, 197);
     
 }
 
@@ -154,8 +158,8 @@ nav{
 
 .vision{
     width: 1280px;
-    height: 765px;
-    margin-top: 40px;
+    /* height: 765px; */
+     margin-top: 20px; 
     
 }
 .v-head{
@@ -181,15 +185,15 @@ nav{
  .vision-container{
     display: flex;
     width: 1280px;
-    height: 325px;
+    /* height: 325px; */
     padding: 24px;
     margin-top: 32px;
     flex-direction: row;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 32px;
-    border-bottom: 32px;
- }
+    /* margin-bottom: 32px; */
+    /* border-bottom: 32px; */
+ } 
 .bision{
     width: 410px;
     height: 325px;
@@ -234,29 +238,53 @@ nav{
     padding: 20px 40px;
 }
 .v-footer{
+    background-image: url(../assets/quote-bg.png);
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    
+    background-repeat: no-repeat;
+   background-position: top left;
+    
     width: 1280px;
-    height: 256px;
-    padding: 48px 24px;
+    /* height: 256px; */
+    /* padding: 48px 24px; */
 }
 .v-footer-p{
-    height: 96px;
+    /* height: 96px; */
     font-size: 16px;
     font-weight: 400px;
-    line-height: 24px; 
+    /* line-height: 24px;  */
     color: rgba(14, 14, 14, 0.80);
+    padding-top: 10px;
 }
 .v-footer-h{
-    height: 24px;
+    /* height: 24px; */
     font-size: 20px;
     font-weight: 600;
-    line-height: 24px;
+    /* line-height: 24px; */
     color: rgba(14, 14, 14, 0.80);
 }
 .v-footer-pp{
-    height: 24px;
+    /* height: 24px; */
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    /* line-height: 24px; */
     color: rgba(14, 14, 14, 0.60);
+    margin-top: -20px;
 }
 
+/* section 3 style starts here */
+
+.checkbox-container{ 
+    margin-top: 16px;
+   
+}
+.checkbox-h{
+   
+    font-size: 40px;
+    font-weight: bold;
+    line-height: auto;
+    color: rgba(14, 14, 14, 1.00);
+}
